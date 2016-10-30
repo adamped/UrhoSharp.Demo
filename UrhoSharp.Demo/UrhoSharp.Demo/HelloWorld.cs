@@ -7,6 +7,9 @@ namespace UrhoSharp.Demo
 {
     public class HelloWorld : Application
     {
+        public HelloWorld() { }
+        public HelloWorld(ApplicationOptions options) : base(options) { }
+
         protected override void Start()
         {
             base.Start();
