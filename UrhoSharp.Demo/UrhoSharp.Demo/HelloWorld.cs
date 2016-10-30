@@ -11,10 +11,10 @@ namespace UrhoSharp.Demo
         {
             base.Start();
 
-            CreateScene();
+            CreateText();
         }
 
-        private void CreateScene()
+        private void CreateText()
         {
             // Create Text Element
             var text = new Text()
